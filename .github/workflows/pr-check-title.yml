@@ -40,7 +40,7 @@ jobs:
 
       - name: Checkout repository
         if: failure()
-        uses: actions/checkout@6f13f31f798a93a6b08d3be0727120e9af35851f # v6.0.2
+        uses: actions/checkout@v4
 
       - name: Comment with PR title guidance
         if: failure()
